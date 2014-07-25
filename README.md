@@ -19,5 +19,8 @@ The script then merges all the Test files and all the Train files (adds columns)
 
 Isolating any column with the word "mean" or "std", the script selects only those columns and calculates the mean of each column up for every subject.
 
+###Re-naming columns with Descriptive titles
+The script also reads in a file with column names that are more descriptive than those found in the source files (features2.txt).  It uses these names to rename the columns in the final output file.
+
 ###Output
 Then end result is a tidy data set where each row represents a subject and all Mean/STD columns are averaged for each subject.  This data set is exported to the working directory as tidy.txt.
