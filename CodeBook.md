@@ -1,8 +1,11 @@
 #Data Dictionary for Samsung Data
 
 activity_desc - (Character) - Activity Description (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
 Subject - (Character) - Subject ID (1 through 30)
+
 TimetBodyAccXMean - (Numeric) 
+
 TimetBodyAccYMean - (Numeric) 
 TimetBodyAccZMean - (Numeric) 
 TimetGravityAccXMean - (Numeric) 
